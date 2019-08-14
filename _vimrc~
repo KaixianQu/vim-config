@@ -68,7 +68,6 @@ call plug#end()
 
 " open a NERDTree automatically when vim starts up
 " autocmd vimenter * NERDTree
-map <C-n> :NERDTreeToggle<CR>
 
 " If you have vim >=8.0 or Neovim >= 0.1.5
 if (has("termguicolors"))
